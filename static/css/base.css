@@ -38,7 +38,6 @@ body {
     color: white;
 }
 
-
 .btn-outline-black {
     background: white;
     color: black !important; /* use important to override link colors for <a> elements */
@@ -51,6 +50,7 @@ body {
     background: black;
     color: white !important;
 }
+
 .shop-now-button:hover,
 .shop-now-button:active,
 .shop-now-button:focus,
@@ -68,6 +68,7 @@ body {
 .border-black {
     border: 1px solid black !important;
 }
+
 .bg-black {
     background: #000 !important;
 }
@@ -95,9 +96,12 @@ a.category-badge > span.badge:hover {
     right: 10px;
 }
 
-.btt-link {
+.btt-link,
+.update-link,
+.remove-item {
     cursor: pointer;
 }
+
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
@@ -121,6 +125,7 @@ a.category-badge > span.badge:hover {
         padding-top: 164px;
     }
 }
+
 /* pad the top a bit when navbar is collapsed on mobile */
 @media (max-width: 991px) {
     .header-container {
